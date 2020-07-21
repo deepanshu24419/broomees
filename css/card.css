@@ -1,0 +1,141 @@
+.card {
+  display: grid;
+  grid-template: (2, 3);
+  grid-template-areas: "image" "text";
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+.card-image {
+  grid-template: (1, 3);
+}
+.card-text {
+  grid-template: (1, 3);
+}
+.card-h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.card-image-1 {
+  grid-area: initial;
+  background: url(../assets/leaf-3634298.jpg) center no-repeat;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image-1 {
+  grid-area: initial;
+  background: url(../assets/leaf-3634298.jpg) center no-repeat;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+.card-image {
+  grid-area: initial;
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-1 {
+  background: url(../assets/backgroundimage/architecture-1836070_1920.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-2 {
+  background: url(../assets/backgroundimage/seedling-5009286.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-3 {
+  background: url(../assets/backgroundimage/table-2879213.jpg) no-repeat;
+  background-size: cover;
+}
+.card-4 {
+  background: url(../assets/backgroundimage/window-831251_1920.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card-5 {
+  background: url(../assets/backgroundimage/adorable-20374_1920.jpg) no-repeat;
+  background-size: center;
+  background-position: center;
+}
+.card-6 {
+  background: url(../assets/backgroundimage/man-1284515_1920.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.card-7 {
+  background: url(../assets/backgroundimage/car-repair-362150_1920.jpg)
+    no-repeat;
+  background-position: cover;
+  background-size: cover;
+}
+.card-8 {
+  background: url(../assets/backgroundimage/car-1149997_1920.jpg) no-repeat;
+  background-position: center;
+  background-size: center;
+}
+.card-9 {
+  background: url(../assets/backgroundimage/walk-2381016_1920.jpg) no-repeat;
+  background-position: cover;
+  background-size: cover;
+}
+.card-10 {
+  background: url(../assets/backgroundimage/dog-5175532_1920.jpg) no-repeat;
+  background-position: center;
+  background-size: center;
+}
+.card-11 {
+  background: url(../assets/backgroundimage/man-training-his-dog-to-fetch-2899098.jpg)
+    no-repeat;
+  background-position: cover;
+  background-size: center;
+}
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+
+.card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.card {
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.book {
+  border: 1.5px solid black;
+  border-radius: 2rem;
+  padding: 0 3rem;
+  padding-top: 0;
+  margin: auto;
+  font-size: 1rem;
+  font-family: var(--Livvic);
+  cursor: pointer;
+}
+.book:hover {
+  color: whitesmoke;
+  background-color: darkgrey;
+}
+.container-card {
+  background: url(../assets/backgroundimage/background-2579709.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
